@@ -1,0 +1,21 @@
+digraph G {
+decl_stmt_3[label="decl_stmt_3"];
+decl_stmt_3 -> func_head_f2_0[label="a(DU)",color=cyan,style=dashed,arrowsize=0.4];
+decl_stmt_3 -> decl_stmt_1[label="m(DU)",color=lightcyan,style=dashed,arrowsize=0.4];
+func_head_f2_0[label="func_head_f2_0"];
+decl_stmt_2[label="decl_stmt_2"];
+decl_stmt_1[label="decl_stmt_1"];
+decl_stmt_1 -> func_head_f2_0[label="a(DU)",color=coral,style=dashed,arrowsize=0.4];
+stmt_6[label="stmt_6"];
+stmt_5[label="stmt_5"];
+stmt_5 -> decl_stmt_3[label="n(DU)",color=forestgreen,style=dashed,arrowsize=0.4];
+func_out_f2_7[label="func_out_f2_7"];
+decl_stmt_4[label="decl_stmt_4"];
+stmt_6 -> func_out_f2_7[label="6"];
+stmt_5 -> stmt_6[label="5"];
+decl_stmt_4 -> stmt_5[label="4"];
+decl_stmt_3 -> decl_stmt_4[label="3"];
+decl_stmt_2 -> decl_stmt_3[label="2"];
+decl_stmt_1 -> decl_stmt_2[label="1"];
+func_head_f2_0 -> decl_stmt_1[label="0"];
+ }
