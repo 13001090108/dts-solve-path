@@ -1,0 +1,13 @@
+digraph G {
+decl_stmt_1[label="decl_stmt_1\n"];
+func_head_f1_0[label="func_head_f1_0\n"];
+func_out_f1_5[label="func_out_f1_5\n"];
+stmt_4[label="stmt_4\n"];
+stmt_3[label="stmt_3\n"];
+stmt_2[label="stmt_2\n"];
+stmt_4 -> func_out_f1_5[label="4"];
+stmt_3 -> stmt_4[label="3"];
+stmt_2 -> stmt_3[label="2"];
+decl_stmt_1 -> stmt_2[label="1"];
+func_head_f1_0 -> decl_stmt_1[label="0"];
+ }

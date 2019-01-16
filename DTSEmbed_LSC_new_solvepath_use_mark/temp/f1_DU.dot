@@ -1,0 +1,12 @@
+digraph G {
+decl_stmt_1[label="decl_stmt_1"];
+func_head_f1_0[label="func_head_f1_0"];
+func_out_f1_4[label="func_out_f1_4"];
+stmt_3[label="stmt_3"];
+stmt_3 -> stmt_2[label="c(DU)",color=coral,style=dashed,arrowsize=0.4];
+stmt_2[label="stmt_2"];
+stmt_3 -> func_out_f1_4[label="3"];
+stmt_2 -> stmt_3[label="2"];
+decl_stmt_1 -> stmt_2[label="1"];
+func_head_f1_0 -> decl_stmt_1[label="0"];
+ }

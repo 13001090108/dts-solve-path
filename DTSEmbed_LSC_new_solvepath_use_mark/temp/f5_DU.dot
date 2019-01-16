@@ -1,0 +1,5 @@
+digraph G {
+func_out_f5_1[label="func_out_f5_1"];
+func_head_f5_0[label="func_head_f5_0"];
+func_head_f5_0 -> func_out_f5_1[label="0"];
+ }
